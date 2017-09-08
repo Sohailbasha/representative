@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="920.79999999999995" y="151.57421289355324"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="Wb8-wZ-CcP">
             <objects>
-                <viewController id="pVa-Ge-NO5" sceneMemberID="viewController">
+                <viewController id="pVa-Ge-NO5" customClass="DetailViewController" customModule="Representative3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s1u-h4-Id1"/>
                         <viewControllerLayoutGuide type="bottom" id="MU4-aP-7Z4"/>
@@ -86,6 +86,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="pVa-Ge-NO5" id="S4A-Uu-ANX"/>
+                                    <outlet property="delegate" destination="pVa-Ge-NO5" id="pFZ-Fi-g0H"/>
+                                </connections>
                             </tableView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="VDJ-QR-eAd">
                                 <rect key="frame" x="64" y="64" width="247" height="29"/>
@@ -106,6 +110,9 @@
                             <constraint firstItem="VDJ-QR-eAd" firstAttribute="leading" secondItem="7Ev-me-rUZ" secondAttribute="leadingMargin" constant="48" id="tj3-an-UFb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="El3-Ra-20N" id="KbH-pj-L2A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hrr-vz-nnw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
