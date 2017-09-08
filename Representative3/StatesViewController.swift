@@ -10,17 +10,15 @@ import UIKit
 
 class StatesViewController: UIViewController {
 
+    
+    @IBOutlet var tableView: UITableView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.delegate = self
         
     }
-
-    
-    @IBOutlet var tableView: UITableView!
-    
-    
 
     
     // MARK: - Navigation
