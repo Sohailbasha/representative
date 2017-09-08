@@ -16,6 +16,7 @@
 		FD24EF081F62ED8000590D8D /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24EF071F62ED8000590D8D /* Representative.swift */; };
 		FD24EF0D1F62F15600590D8D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24EF0C1F62F15600590D8D /* DetailViewController.swift */; };
 		FD24EF0F1F62F41000590D8D /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24EF0E1F62F41000590D8D /* NetworkController.swift */; };
+		FD24EF121F6316D300590D8D /* RepController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24EF111F6316D300590D8D /* RepController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FD24EF071F62ED8000590D8D /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
 		FD24EF0C1F62F15600590D8D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FD24EF0E1F62F41000590D8D /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		FD24EF111F6316D300590D8D /* RepController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +66,9 @@
 			children = (
 				FD24EEF51F62E20400590D8D /* Main.storyboard */,
 				FD24EF091F62EDA400590D8D /* Model */,
-				FD24EF0A1F62EDAF00590D8D /* View Controller */,
 				FD24EF0B1F62EDB500590D8D /* Model Controller */,
-				FD24EF0E1F62F41000590D8D /* NetworkController.swift */,
+				FD24EF0A1F62EDAF00590D8D /* View Controller */,
+				FD24EF101F63169C00590D8D /* Tools */,
 				FD24EEF11F62E20400590D8D /* AppDelegate.swift */,
 				FD24EEF81F62E20400590D8D /* Assets.xcassets */,
 				FD24EEFA1F62E20400590D8D /* LaunchScreen.storyboard */,
@@ -96,8 +98,17 @@
 			isa = PBXGroup;
 			children = (
 				FD24EF051F62E33C00590D8D /* StateController.swift */,
+				FD24EF111F6316D300590D8D /* RepController.swift */,
 			);
 			name = "Model Controller";
+			sourceTree = "<group>";
+		};
+		FD24EF101F63169C00590D8D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FD24EF0E1F62F41000590D8D /* NetworkController.swift */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 				FD24EF0D1F62F15600590D8D /* DetailViewController.swift in Sources */,
 				FD24EF061F62E33C00590D8D /* StateController.swift in Sources */,
 				FD24EEF21F62E20400590D8D /* AppDelegate.swift in Sources */,
+				FD24EF121F6316D300590D8D /* RepController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
