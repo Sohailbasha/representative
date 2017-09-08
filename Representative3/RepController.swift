@@ -10,14 +10,14 @@ import Foundation
 
 class RepController {
     
-    private static let baseURL = "https://whoismyrepresentative.com/getall_reps_bystate.php"
+    private static let baseURL = URL(string: "https://whoismyrepresentative.com/getall_reps_bystate.php")
     
-    static func getDataFor(state: String, completion: @escaping ([Representative]?) -> Void) {
+    static func getDataFor(state: String, completion: @escaping ([Representative]) -> Void) {
 
         let urlParameters = ["state":"\(state)", "output":"json"]
         
-        if let url = URL(string: baseURL) {
-            NetworkController.performRequest(url: url, httpMethod: .get, parameters: urlParameters, completion: { (data, error) in
+        if let url = baseURL {
+            NetworkController.performRequest(for: url, httpMethod: .get, urlParameters: urlParameters, completion: { (data, error) in
                 
                 // unwrap data
                 guard let data = data else {
