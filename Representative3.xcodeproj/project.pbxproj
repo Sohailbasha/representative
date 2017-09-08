@@ -12,6 +12,7 @@
 		FD24EEF91F62E20400590D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD24EEF81F62E20400590D8D /* Assets.xcassets */; };
 		FD24EEFC1F62E20400590D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD24EEFA1F62E20400590D8D /* LaunchScreen.storyboard */; };
 		FD24EF041F62E2E100590D8D /* StatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24EF031F62E2E100590D8D /* StatesViewController.swift */; };
+		FD24EF061F62E33C00590D8D /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24EF051F62E33C00590D8D /* StateController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FD24EEFB1F62E20400590D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD24EEFD1F62E20400590D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD24EF031F62E2E100590D8D /* StatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesViewController.swift; sourceTree = "<group>"; };
+		FD24EF051F62E33C00590D8D /* StateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FD24EEF11F62E20400590D8D /* AppDelegate.swift */,
 				FD24EEF51F62E20400590D8D /* Main.storyboard */,
 				FD24EF031F62E2E100590D8D /* StatesViewController.swift */,
+				FD24EF051F62E33C00590D8D /* StateController.swift */,
 				FD24EEF81F62E20400590D8D /* Assets.xcassets */,
 				FD24EEFA1F62E20400590D8D /* LaunchScreen.storyboard */,
 				FD24EEFD1F62E20400590D8D /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD24EF041F62E2E100590D8D /* StatesViewController.swift in Sources */,
+				FD24EF061F62E33C00590D8D /* StateController.swift in Sources */,
 				FD24EEF21F62E20400590D8D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

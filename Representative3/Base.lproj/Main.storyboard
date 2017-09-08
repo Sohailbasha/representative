@@ -20,7 +20,29 @@
                     <view key="view" contentMode="scaleToFill" id="Cfw-rP-bLH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AgX-PC-uY4">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="stateCell" id="aHE-yc-oDq">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aHE-yc-oDq" id="mdR-Y7-bbT">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Daz-4N-U3J" firstAttribute="top" secondItem="AgX-PC-uY4" secondAttribute="bottom" id="0gy-jr-MTb"/>
+                            <constraint firstAttribute="trailing" secondItem="AgX-PC-uY4" secondAttribute="trailing" id="GFA-a1-zJh"/>
+                            <constraint firstItem="AgX-PC-uY4" firstAttribute="leading" secondItem="Cfw-rP-bLH" secondAttribute="leading" id="HIJ-9D-QtM"/>
+                            <constraint firstItem="AgX-PC-uY4" firstAttribute="top" secondItem="2tL-Xu-itX" secondAttribute="bottom" id="dTK-g6-yKQ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Z4W-Ga-Xi4"/>
                 </viewController>
